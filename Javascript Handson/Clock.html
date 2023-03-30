@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Viewer</title>
+</head>
+<body>
+    <button id="toggleButton">
+        Dark mode</button>
+    <div id="clock-container">
+        <div id="clock">
+            <div id="center-point"></div>
+            <div id="second"></div>
+            <div id="minute"></div>
+            <div id="hour"></div>
+        </div>
+        <div id="time"></div>
+        <div id="date"></div>
+    </div>
+    <img src="" id="img" alt="">
+    <script>
+        let btn = document.getElementById("toggleButton");
+        btn.addEventListener('click', function () {
+        document.getElementById("img").innerHTML = img.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Analog_clock_animation.gif/763px-Analog_clock_animation.gif";
+});
+
+    </script>
+</body>
+</html>
